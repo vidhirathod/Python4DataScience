@@ -1,21 +1,35 @@
-The data has been split into two groups:
+Titanic survival !
 
-training set (train.csv)
-test set (test.csv)
-The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. Your model will be based on “features” like passengers’ gender and class. You can also use feature engineering to create new features.
+This is the legendary Titanic ML Dataset – the ideal dataset to dive into ML and familiarize yourself with ML Case Studies.
 
-The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
+The data has been clean and split into two groups:
 
-We can also include gender_submission.csv, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
+training set (train.csv):
+The training set should be used to build your machine learning models. 
+For the training set, we provide the outcome (also known as the “ground truth”) for each passenger. 
+Model will be based on “features” like passengers’ gender and class. 
+
+test set (test.csv):
+The test set should be used to see how well your model performs on unseen data. 
+For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
+
+The Problem Statement is simple: use machine learning to create an efficient Model that predicts which passengers survived the Titanic shipwreck.
 
 Goal for this Notebook:
-Show a simple example of an analysis of the Titanic disaster in Python using a full complement of PyData utilities. This is aimed for those looking to get into the field or those who are already in the field and looking to see an example of an analysis done with Python.
 
-This Notebook will show basic examples of:
-Data Handling
-Importing Data with Pandas
-Cleaning Data
-Exploring Data through Visualizations with Matplotlib
+Analysis and Application of Advanced Machine Learning Algorithms for Survival Prediction of Titanic.
+
+This Notebook will include:
+
+Cleaning Data: Feature Engineering, Missing Values, Imputations
+
+Exploring Data
+
+Model Selection and Evaluation: Supervised Machine learning Techniques: 
+Logitistic Regression Model + + Support Vector Machine (SVM) using 3 kernels + 
+Decision Trees + Random Forest + Extra Trees + Gradient Boosting + Ada Boost +
+Xtreme Gradient Boosting + Evaluation of the Models + Identify Key Features
+
 
 
 
