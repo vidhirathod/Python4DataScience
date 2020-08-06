@@ -20,7 +20,7 @@ The Recommender system based on Collaborative filtering using KNN Algorithm on t
 
 ### 1.4 Summary & Overview
 
-## Sentiment Analysis:
+#### Sentiment Analysis:
 Plan is to implement sentiment analysis using Python using:
 • Dummy Classifier using TF-IDF vectorizer(baseline algorithm)
 • Logistic regression with TFIDF vectorizer
@@ -34,7 +34,7 @@ Plan is to implement sentiment analysis using Python using:
 • Specificity
 Note: As there is no response variable, I plan to use overall column to segregate and tag the sentiment as good /positive when rating is >=4 and as bad/ Negative when rating is <=2. I excluded ratings with overall rating value =3 as it shows neutrality.
 
-## Recommender System:
+#### Recommender System:
 Collaborative Filtering Recommender System (K - nearest neighbors’ algorithm)
 Build an item-based collaborative filtering system based on K - nearest neighbors to find the most similar products. Here, Amazon Home and Kitchen Product line is used.
 Also, build K neighbors classifier model to predict overall review rating based on text reviews
